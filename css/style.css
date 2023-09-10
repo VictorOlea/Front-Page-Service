@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    align-items: center;
+    display: flex;
+    height: 120px;
+    justify-content: space-around;
+    margin-bottom: 5%;
+}
+
+.header__title{
+    font-style: italic;
+}
+
+.section__service{
+    display: flex;
+    justify-content: space-around;
+}
+
+.div__service{
+    background-color: #fafafa;
+    height: 480px;
+    width: 400px;
+}
+
+.title__service{
+    text-align: center;
+}
+
+.gasfiter__service,
+.electric__service,
+.termination__service{
+    text-align: justify;
+    font-size: 20px;
+}
+
+.list__service{
+    font-size: 18px;
+}
+
+.banner{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 4% 15%;
+    width: 80%;
+    color: #fff;
+    background-color: #8b48bf;
+    margin: 5% 10%;
+}
+
+.banner__title {
+    font-size: 2rem;
+    text-align: left;
+    padding-right: 3rem;
+    width: 50%;
+}
+  
+.banner__description {
+    font-size: 16px;
+    font-weight: 500;
+    width: 45%;
+}
+
+.secction__contact{
+    display: flex;
+    justify-content: space-around;
+}
+
+.form__contact{
+    display: flex;
+    height: 540px;
+    width: 400px;
+    background-color: #fafafa;
+}
+
+.about__me{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 540px;
+    width: 400px;
+    background-color: #fafafa;
+}
+
+.about_me_title{
+    text-align: center;
+}
+
+.about_me_description{
+    padding: 1%;
+}
+
+.img__worker{
+    scale: 0.4;
+    position: relative;
+    transform: translateY(-60%);
+}
