@@ -83,10 +83,68 @@
     <section class="secction__contact">
         <form class="form__contact">
             <h2 class="title__contact">Contactanos</h2>
+            <p class="form__name">
+                <label>Nombre: <input type="text"></label>
+            </p>
+            <!-- <p>
+                <label>Apellido: <input type="text"></label>
+            </p> -->
+            <p>
+                <label>Email: <input type="email" name="email"></label>
+            </p>
+            <p>
+                <label>Número: <input type="number" name="number"></label>
+            </p>
+
+            <p>
+            <label>Gasfitería<input type="radio" 
+                                    name="service" 
+                                    value="gasfiter">
+            </label>
+
+            <label>Electricidad<input type="radio" 
+                                      name="service" 
+                                      value="electric">
+            </label>
+
+            <label>Terminaciones<input type="radio" 
+                                       name="service" 
+                                       value="termination">
+            </label>
+            </p>
+
+            <p>
+            <label>Consulta</label>
+            <select name="work">
+                <option value="work-1">Work 1</option>
+                <option value="work-2">Work 2</option>
+                <option value="work-o">Work Others</option>
+            </select>
+            </p>
+            <p>
+                <label>Fecha de Visita: <input type="datetime-local" name="datetime-local"></label>
+            </p>
+
+            <p>
+                <label>Dirección: 
+                <br>
+                <textarea name="address" id="" cols="30" rows="2"></textarea>
+                </label>
+            </p>
+            <p>
+                <label>Otro:
+                <br>
+                <textarea name="description" cols="30" rows="2"></textarea>
+                </label>
+            </p>
+
+            <p>
+                <button type="submit">Enviar</button>
+            </p>
         </form>
         <div class="about__me">
             <h2 class="about_me_title">
-                Maestro Bukowski
+                Maestro 
             </h2>
             <p class="about_me_description">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
